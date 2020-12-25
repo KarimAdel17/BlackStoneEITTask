@@ -1,0 +1,6 @@
+framework module Pods_BlackStonesEITTask {
+  umbrella header "Pods-BlackStonesEITTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

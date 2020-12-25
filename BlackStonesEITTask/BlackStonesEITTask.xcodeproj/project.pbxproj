@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F06704F90A0A388803738BD /* Pods_BlackStonesEITTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9935BF7A886F42D6E03B1F21 /* Pods_BlackStonesEITTask.framework */; };
+		8A3F9FBE2596109D00A850FB /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F9FBD2596109D00A850FB /* UIViewEx.swift */; };
+		8A3F9FC0259616F600A850FB /* FirstThreeDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F9FBF259616F600A850FB /* FirstThreeDots.swift */; };
+		8A3F9FC22596190700A850FB /* GeneralProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F9FC12596190700A850FB /* GeneralProtocol.swift */; };
+		8A4A45182595E5A60029059D /* CurrenciesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A45162595E5A60029059D /* CurrenciesCell.swift */; };
+		8A4A45192595E5A60029059D /* CurrenciesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4A45172595E5A60029059D /* CurrenciesCell.xib */; };
+		8A4A451C2595E7A10029059D /* ExhangeCurrenciesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A451B2595E7A10029059D /* ExhangeCurrenciesVC.swift */; };
+		8A5C9B162595D12A00C76E0B /* CurrenciesPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C9B152595D12A00C76E0B /* CurrenciesPickerVC.swift */; };
+		8A5C9B182595D21B00C76E0B /* CurrenciesPickerVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C9B172595D21B00C76E0B /* CurrenciesPickerVCPresenter.swift */; };
+		8A5C9B1A2595D37B00C76E0B /* CurrenciesPickerVC+PickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C9B192595D37B00C76E0B /* CurrenciesPickerVC+PickerDelegate.swift */; };
+		8A5C9B1C2595E06900C76E0B /* CurrenciesPickerVC+PresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C9B1B2595E06900C76E0B /* CurrenciesPickerVC+PresenterDelegate.swift */; };
+		8A83281425943A4900856110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A83281325943A4900856110 /* AppDelegate.swift */; };
+		8A83281625943A4900856110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A83281525943A4900856110 /* SceneDelegate.swift */; };
+		8A83281B25943A4900856110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A83281925943A4900856110 /* Main.storyboard */; };
+		8A83281D25943A7100856110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A83281C25943A7100856110 /* Assets.xcassets */; };
+		8A83282025943A7100856110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A83281E25943A7100856110 /* LaunchScreen.storyboard */; };
+		8A83282A2594489800856110 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8328292594489800856110 /* MainVC.swift */; };
+		8A83282C2594495500856110 /* MainVC+TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A83282B2594495500856110 /* MainVC+TableDelegate.swift */; };
+		8A83282F259449C500856110 /* MainVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A83282E259449C500856110 /* MainVCPresenter.swift */; };
+		8A83283125944ACB00856110 /* MainVC+PresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A83283025944ACB00856110 /* MainVC+PresenterDelegate.swift */; };
+		8A83283625944CF000856110 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A83283525944CF000856110 /* APIClient.swift */; };
+		8A8328382594567700856110 /* MainVC+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8328372594567700856110 /* MainVC+Model.swift */; };
+		8A83283A2594586E00856110 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8328392594586E00856110 /* NetworkConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65657B9C2E9146C92152F77A /* Pods-BlackStonesEITTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackStonesEITTask.debug.xcconfig"; path = "Target Support Files/Pods-BlackStonesEITTask/Pods-BlackStonesEITTask.debug.xcconfig"; sourceTree = "<group>"; };
+		79FC13051C371A7C91FDA7D6 /* Pods-BlackStonesEITTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackStonesEITTask.release.xcconfig"; path = "Target Support Files/Pods-BlackStonesEITTask/Pods-BlackStonesEITTask.release.xcconfig"; sourceTree = "<group>"; };
+		8A3F9FBD2596109D00A850FB /* UIViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
+		8A3F9FBF259616F600A850FB /* FirstThreeDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstThreeDots.swift; sourceTree = "<group>"; };
+		8A3F9FC12596190700A850FB /* GeneralProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralProtocol.swift; sourceTree = "<group>"; };
+		8A4A45162595E5A60029059D /* CurrenciesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesCell.swift; sourceTree = "<group>"; };
+		8A4A45172595E5A60029059D /* CurrenciesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrenciesCell.xib; sourceTree = "<group>"; };
+		8A4A451B2595E7A10029059D /* ExhangeCurrenciesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhangeCurrenciesVC.swift; sourceTree = "<group>"; };
+		8A5C9B152595D12A00C76E0B /* CurrenciesPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesPickerVC.swift; sourceTree = "<group>"; };
+		8A5C9B172595D21B00C76E0B /* CurrenciesPickerVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesPickerVCPresenter.swift; sourceTree = "<group>"; };
+		8A5C9B192595D37B00C76E0B /* CurrenciesPickerVC+PickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrenciesPickerVC+PickerDelegate.swift"; sourceTree = "<group>"; };
+		8A5C9B1B2595E06900C76E0B /* CurrenciesPickerVC+PresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrenciesPickerVC+PresenterDelegate.swift"; sourceTree = "<group>"; };
+		8A83281025943A4900856110 /* BlackStonesEITTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackStonesEITTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A83281325943A4900856110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A83281525943A4900856110 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A83281A25943A4900856110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A83281C25943A7100856110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A83281F25943A7100856110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A83282125943A7100856110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8328292594489800856110 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		8A83282B2594495500856110 /* MainVC+TableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+TableDelegate.swift"; sourceTree = "<group>"; };
+		8A83282E259449C500856110 /* MainVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCPresenter.swift; sourceTree = "<group>"; };
+		8A83283025944ACB00856110 /* MainVC+PresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+PresenterDelegate.swift"; sourceTree = "<group>"; };
+		8A83283525944CF000856110 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8A8328372594567700856110 /* MainVC+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+Model.swift"; sourceTree = "<group>"; };
+		8A8328392594586E00856110 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		9935BF7A886F42D6E03B1F21 /* Pods_BlackStonesEITTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackStonesEITTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A83280D25943A4900856110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F06704F90A0A388803738BD /* Pods_BlackStonesEITTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F6464AF9DD1675949DFEF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9935BF7A886F42D6E03B1F21 /* Pods_BlackStonesEITTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A4A45152595E5830029059D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8A4A45162595E5A60029059D /* CurrenciesCell.swift */,
+				8A4A45172595E5A60029059D /* CurrenciesCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8A4A451A2595E7590029059D /* ExchangeCurrenciesVC */ = {
+			isa = PBXGroup;
+			children = (
+				8A4A451B2595E7A10029059D /* ExhangeCurrenciesVC.swift */,
+			);
+			path = ExchangeCurrenciesVC;
+			sourceTree = "<group>";
+		};
+		8A5C9B142595B61E00C76E0B /* CurrenciesPickerVC */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C9B152595D12A00C76E0B /* CurrenciesPickerVC.swift */,
+				8A5C9B192595D37B00C76E0B /* CurrenciesPickerVC+PickerDelegate.swift */,
+				8A5C9B172595D21B00C76E0B /* CurrenciesPickerVCPresenter.swift */,
+				8A5C9B1B2595E06900C76E0B /* CurrenciesPickerVC+PresenterDelegate.swift */,
+			);
+			path = CurrenciesPickerVC;
+			sourceTree = "<group>";
+		};
+		8A83280725943A4900856110 = {
+			isa = PBXGroup;
+			children = (
+				8A83281225943A4900856110 /* BlackStonesEITTask */,
+				8A83281125943A4900856110 /* Products */,
+				D25972E6BF0CAE2325F93390 /* Pods */,
+				66F6464AF9DD1675949DFEF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A83281125943A4900856110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A83281025943A4900856110 /* BlackStonesEITTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A83281225943A4900856110 /* BlackStonesEITTask */ = {
+			isa = PBXGroup;
+			children = (
+				8A83283225944BB500856110 /* Configuration */,
+				8A83283425944CB600856110 /* Utilities */,
+				8A83283325944C0A00856110 /* UI */,
+				8A8328272594484500856110 /* Scenes */,
+			);
+			path = BlackStonesEITTask;
+			sourceTree = "<group>";
+		};
+		8A8328272594484500856110 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8A3F9FBF259616F600A850FB /* FirstThreeDots.swift */,
+				8A8328282594484E00856110 /* MainVC */,
+				8A5C9B142595B61E00C76E0B /* CurrenciesPickerVC */,
+				8A4A451A2595E7590029059D /* ExchangeCurrenciesVC */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8A8328282594484E00856110 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				8A4A45152595E5830029059D /* Cells */,
+				8A8328292594489800856110 /* MainVC.swift */,
+				8A83282B2594495500856110 /* MainVC+TableDelegate.swift */,
+				8A83282E259449C500856110 /* MainVCPresenter.swift */,
+				8A83283025944ACB00856110 /* MainVC+PresenterDelegate.swift */,
+				8A8328372594567700856110 /* MainVC+Model.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		8A83283225944BB500856110 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8A83281325943A4900856110 /* AppDelegate.swift */,
+				8A83281525943A4900856110 /* SceneDelegate.swift */,
+				8A83281C25943A7100856110 /* Assets.xcassets */,
+				8A83282125943A7100856110 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		8A83283325944C0A00856110 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8A83281925943A4900856110 /* Main.storyboard */,
+				8A83281E25943A7100856110 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8A83283425944CB600856110 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8A83283525944CF000856110 /* APIClient.swift */,
+				8A8328392594586E00856110 /* NetworkConstants.swift */,
+				8A3F9FBD2596109D00A850FB /* UIViewEx.swift */,
+				8A3F9FC12596190700A850FB /* GeneralProtocol.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D25972E6BF0CAE2325F93390 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65657B9C2E9146C92152F77A /* Pods-BlackStonesEITTask.debug.xcconfig */,
+				79FC13051C371A7C91FDA7D6 /* Pods-BlackStonesEITTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A83280F25943A4900856110 /* BlackStonesEITTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A83282425943A7100856110 /* Build configuration list for PBXNativeTarget "BlackStonesEITTask" */;
+			buildPhases = (
+				5DB5A7F6DFC63DE75BF707BA /* [CP] Check Pods Manifest.lock */,
+				8A83280C25943A4900856110 /* Sources */,
+				8A83280D25943A4900856110 /* Frameworks */,
+				8A83280E25943A4900856110 /* Resources */,
+				B5B5FEDB07D6E218A6EBDEF3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackStonesEITTask;
+			productName = BlackStonesEITTask;
+			productReference = 8A83281025943A4900856110 /* BlackStonesEITTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A83280825943A4900856110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Karim;
+				TargetAttributes = {
+					8A83280F25943A4900856110 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8A83280B25943A4900856110 /* Build configuration list for PBXProject "BlackStonesEITTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A83280725943A4900856110;
+			productRefGroup = 8A83281125943A4900856110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A83280F25943A4900856110 /* BlackStonesEITTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A83280E25943A4900856110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A83282025943A7100856110 /* LaunchScreen.storyboard in Resources */,
+				8A83281D25943A7100856110 /* Assets.xcassets in Resources */,
+				8A4A45192595E5A60029059D /* CurrenciesCell.xib in Resources */,
+				8A83281B25943A4900856110 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DB5A7F6DFC63DE75BF707BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlackStonesEITTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B5FEDB07D6E218A6EBDEF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackStonesEITTask/Pods-BlackStonesEITTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackStonesEITTask/Pods-BlackStonesEITTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackStonesEITTask/Pods-BlackStonesEITTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A83280C25943A4900856110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A83283A2594586E00856110 /* NetworkConstants.swift in Sources */,
+				8A3F9FC0259616F600A850FB /* FirstThreeDots.swift in Sources */,
+				8A83281425943A4900856110 /* AppDelegate.swift in Sources */,
+				8A4A451C2595E7A10029059D /* ExhangeCurrenciesVC.swift in Sources */,
+				8A5C9B182595D21B00C76E0B /* CurrenciesPickerVCPresenter.swift in Sources */,
+				8A83283625944CF000856110 /* APIClient.swift in Sources */,
+				8A83283125944ACB00856110 /* MainVC+PresenterDelegate.swift in Sources */,
+				8A83282C2594495500856110 /* MainVC+TableDelegate.swift in Sources */,
+				8A83282A2594489800856110 /* MainVC.swift in Sources */,
+				8A83282F259449C500856110 /* MainVCPresenter.swift in Sources */,
+				8A3F9FC22596190700A850FB /* GeneralProtocol.swift in Sources */,
+				8A5C9B1A2595D37B00C76E0B /* CurrenciesPickerVC+PickerDelegate.swift in Sources */,
+				8A5C9B162595D12A00C76E0B /* CurrenciesPickerVC.swift in Sources */,
+				8A5C9B1C2595E06900C76E0B /* CurrenciesPickerVC+PresenterDelegate.swift in Sources */,
+				8A83281625943A4900856110 /* SceneDelegate.swift in Sources */,
+				8A4A45182595E5A60029059D /* CurrenciesCell.swift in Sources */,
+				8A8328382594567700856110 /* MainVC+Model.swift in Sources */,
+				8A3F9FBE2596109D00A850FB /* UIViewEx.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A83281925943A4900856110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A83281A25943A4900856110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A83281E25943A7100856110 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A83281F25943A7100856110 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A83282225943A7100856110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A83282325943A7100856110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A83282525943A7100856110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65657B9C2E9146C92152F77A /* Pods-BlackStonesEITTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4G376JM43;
+				INFOPLIST_FILE = BlackStonesEITTask/Configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karimadel.BlackStonesEITTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A83282625943A7100856110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FC13051C371A7C91FDA7D6 /* Pods-BlackStonesEITTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4G376JM43;
+				INFOPLIST_FILE = BlackStonesEITTask/Configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karimadel.BlackStonesEITTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A83280B25943A4900856110 /* Build configuration list for PBXProject "BlackStonesEITTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A83282225943A7100856110 /* Debug */,
+				8A83282325943A7100856110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A83282425943A7100856110 /* Build configuration list for PBXNativeTarget "BlackStonesEITTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A83282525943A7100856110 /* Debug */,
+				8A83282625943A7100856110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A83280825943A4900856110 /* Project object */;
+}
